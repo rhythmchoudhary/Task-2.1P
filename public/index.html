@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP FORM</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+<div class="signup-container">
+    <!-- Form with POST action pointing to localhost signup -->
+    <form id="signup-form" action="http://localhost:3000/signup" method="POST">
+        <!-- Label with class -->
+        <label for="email" class="signup-label">SIGN UP FOR OUR DAILY INSIDER</label>
+        <!-- Input field for email with appropriate name attribute -->
+        <input type="email" id="email" name="email" class="signup-input" placeholder="Enter your email" required>
+        <!-- Submit button with a class -->
+        <button type="submit" class="signup-button">Subscribe</button>
+    </form>
+</div>
+
+</body>
+</html>
